@@ -1,3 +1,8 @@
+#!/usr/bin/python
+
+# Ezt a programot az alábbi linken található feladatok alapján készült:
+# https://sulipy.hu/ciklusok/while_ciklus?tab=feladatok
+
 print("- 1. feladat")
 n = 1
 while n <= 10:

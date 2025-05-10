@@ -31,10 +31,9 @@ int main() {
 
     std::cout << "\n- 6. feladat\n";
     int numThree = 0;
+    srand(time(0));
     for (int i = 20; i --> 0;) {
-        // TODO: how to generate random numbers properly (within an interval) in C++?
-        #define RAND_MAX 20
-        int x = std::rand();
+        int x = (rand() % 12) + 1;
         if (x % 3 != 0) continue;
         
         std::cout << x << "\n";
